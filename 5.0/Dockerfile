@@ -12,7 +12,7 @@
 ARG ubuntu_version=20.04
 FROM ubuntu:$ubuntu_version
 
-ARG mysql_tarball=https://vettabase.com/old-sw/mysql/5.0/mysql-5.0.96-linux-x86_64-glibc23.tar.gz
+ARG mysql_tarball=https://downloads.mysql.com/archives/get/p/23/file/mysql-5.0.96-linux-x86_64-glibc23.tar.gz
 
 RUN  \
     groupadd mysql \
